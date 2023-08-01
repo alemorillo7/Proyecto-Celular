@@ -1,0 +1,75 @@
+body{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(36,11,0);
+background: linear-gradient(90deg, rgba(36,11,0,0.777262180974478) 0%, rgba(8,0,2,0.6241299303944315) 0%, rgba(4,2,2,1) 100%);
+}
+
+
+/* style.css */
+
+/* Update card background and text color */
+.card {
+    background: rgb(206,251,63);
+    background: radial-gradient(circle, rgba(206,251,63,1) 0%, rgba(99,194,190,0.8961253894080997) 100%);
+    color: #333;
+  }
+  
+  /* Update card header and footer background color */
+  .card-header, .card-footer {
+    background-color: #b6940b;
+    color: #333;
+  }
+  
+  /* Update modal background and text color */
+  .modal-content {
+    background-color: #eeeeee;
+    color: #333;
+  }
+  
+  /* Update modal header and footer background color */
+  .modal-header, .modal-footer {
+    background-color: #ffcc00;
+    color: #333;
+  }
+  
+  /* Update button colors */
+  .btn-primary {
+    background-color: #ff6600;
+    color: #fff;
+    border-color: #ff6600;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff3300;
+    border-color: #ff3300;
+  }
+  
+  /* Update switch colors */
+  .form-check-input:checked + .form-check-label {
+    color: #fff;
+    background-color: #ff6600;
+  }
+  
+  .form-check-input:checked + .form-check-label::before {
+    background-color: #fff;
+    border-color: #ff6600;
+  }
+  
+  /* Update table header background color */
+  .table thead th {
+    background-color: #ffcc00;
+  }
+  
+  /* Update link color */
+  a {
+    color: #ff6600;
+  }
+  
+  a:hover {
+    color: #ff3300;
+  }
+  
